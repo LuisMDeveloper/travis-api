@@ -44,8 +44,7 @@ describe Travis::Api::V2::Http::Request do
       'committer_name' => 'Sven Fuchs',
       'author_name' => 'Sven Fuchs',
       'author_email' => 'svenfuchs@artweb-design.de',
-      'compare_url' => 'https://github.com/svenfuchs/minimal/compare/master...develop',
-      'pull_request_number' => nil,
+      'pull_request_number' => nil
     }
   end
 end
