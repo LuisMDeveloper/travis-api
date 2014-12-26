@@ -25,6 +25,7 @@ gem 'metriks-librato_metrics', github: 'eric/metriks-librato_metrics'
 gem 'micro_migrations'
 
 group :test do
+  gem 'test-unit',     '~> 3.0.8'
   gem 'rspec',         '~> 2.13'
   gem 'factory_girl',  '~> 2.4.0'
   gem 'mocha',         '~> 0.12'
